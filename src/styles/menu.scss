@@ -1,0 +1,16 @@
+.menu {
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: $background-color-menu;
+  text-transform: uppercase;
+
+  &__content {
+    padding-inline: 20px;
+
+    @include content-pading-inline;
+  }
+
+  @include on-tablet {
+    margin-bottom: 0;
+  }
+}
